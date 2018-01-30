@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 import os
 import sys
 
-#turn it True if you also want to download books
-download_books = True
+#turn it True if you also want to download books otherwise it will only extract download links and other information of books and save it to a file
+download_books = False
 mozilla_agent = "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0"
 headers = {'User-Agent':mozilla_agent}
 books_dir = os.path.dirname(os.path.abspath(__file__)) +'/download_books'
