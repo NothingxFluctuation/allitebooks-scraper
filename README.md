@@ -7,8 +7,10 @@ will save all the download links of all books with all information related to th
 **You only need to install two external python libraries for this script to work properly:**
 
 - requests
-install requests by running pip install requests
+> install requests by running pip install requests
 - beautifulsoup
-install beautifulsoup by running pip install beautifulsoup4
+> install beautifulsoup by running pip install beautifulsoup4
 
-feel free to improve this script :+1:
+
+
+Feel free to improve this script :+1:
